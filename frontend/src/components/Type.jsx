@@ -3,7 +3,7 @@ export default function Type({ types }){
 
     return(
         <article>
-            <ul>
+            <ul className="types">
                 {slicedTypes.map((type, index) =>(
                     <li key={index}>{type.name}</li>
                 ))}
