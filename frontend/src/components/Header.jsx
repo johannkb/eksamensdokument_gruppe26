@@ -1,9 +1,6 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-
+import { SlMagnifier } from "react-icons/sl"
 
 export default function Header(){
-
 
     return(
         <header>
@@ -15,6 +12,7 @@ export default function Header(){
                         type="text"
                         placeholder="Søk etter Pokemon"
                         className="search"/>
+                        <button className="searchbtn"><SlMagnifier /></button>
                 </ul>
             </nav>
         </header>

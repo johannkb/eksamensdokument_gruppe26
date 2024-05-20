@@ -1,13 +1,13 @@
-import React from "react";
-
 export default function Pokemons({ pokemon }){
+    const slicedPokemon = pokemon.slice(0,9)
+
     return(
-        <article>
+        <section>
             <ul className="pokemon">
-                {pokemon.map((poke, index) =>(
+                {slicedPokemon.map((poke, index) =>(
                     <li key={index}>{poke.name}</li>
                 ))}
             </ul>
-        </article>
+        </section>
     )
 }

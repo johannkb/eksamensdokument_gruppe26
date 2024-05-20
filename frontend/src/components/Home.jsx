@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react"
 import Pokemons from "./Pokemon"
 import Type from "./Type"
 import Header from "./Header"
 
 export default function Home({ pokemon, types }){
+    
     return(
         <>
         <Header />
